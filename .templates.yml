@@ -1,0 +1,9 @@
+name: observe_event
+namespace: ObserveEvent
+author: Ryan Scott Lewis
+email: ryanscottlewis@gmail.com
+github: RyanScottLewis
+summary: Small and effective implementation of the observer pattern to define event methods on objects.
+description: |
+    Enables an object to define an event method which to becomes a publisher/observable.
+    Subscribers/observers can to be defined dynamically via a block given to the event.
