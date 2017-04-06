@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = '<%= summary %>'
   spec.description   = <<~DESCRIPTION.chomp
-<%= description.lines.map { |line| line.rjust(4) }.join %>
+<%= description.lines.map { |line| (' ' * 4) + line }.join %>
   DESCRIPTION
 
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
